@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bloc{
+    display: flex;
+    justify-content: center;
+    
+}
+.box{
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    display: grid;
+    row-gap: 20px;
+    box-shadow: 0 0 15px rgb(255, 255, 255);
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+.item.active{
+    background:url(https://365psd.com/images/istock/previews/2121/21212345-big-smile-emoticon.jpg);
+    background-position: center;
+    background-size: cover;
+}
